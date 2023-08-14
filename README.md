@@ -1,6 +1,6 @@
 # AI Express | SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023
 
-This is a repository for Building a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe |
+AIExpress is a cutting-edge Software as a Service (SaaS) AI platform that harnesses the power of modern technologies to deliver a versatile and user-friendly experience. This platform, built using Next.js 13, React, Tailwind CSS, Prisma supabase, PostgreSQL, and integrated Stripe and Juspay payment gateways, aims to redefine how AI-powered solutions are leveraged for creative tasks.
 
 
 Features:
