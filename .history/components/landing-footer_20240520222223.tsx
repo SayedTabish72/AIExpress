@@ -1,7 +1,10 @@
 "use client";
 
+
 import React from "react";
 import ItemsContainer from "./ItemsContainer";
+import SocialIcons from "./socialIcons";
+import { Icons } from "@/components/Menus";
 
 export const LandingFooter = () => {
   return (
@@ -11,7 +14,7 @@ export const LandingFooter = () => {
           className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold
          md:w-2/5"
         >
-          <span className="text-teal-400">Free</span> until you are ready to
+          <span className="text-teal-400">Free</span> until you're ready to
           launch
         </h1>
         <div>
@@ -34,8 +37,9 @@ export const LandingFooter = () => {
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
       text-center pt-2 text-gray-400 text-sm pb-8"
       >
-        <span>&copy; 2020 Appy. All rights reserved.</span>
+<span>&copy; 2020 Appy. All rights reserved.</span>
         <span>Terms · Privacy Policy</span>
+        <SocialIcons Icons={Icons} />
       </div>
     </footer>
   );
