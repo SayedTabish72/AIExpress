@@ -31,7 +31,7 @@ export const LandingNavbar = () => {
           {/* Image component for the logo */}
           <Image fill alt="Logo" src="/logo.png" />
         </div>
-        <h1 className={cn("text-2xl font-bold text-white", font.className)}>
+        <h1 className={cn("text-2xl font-bold text-Black", font.className)}>
           AIExpress
         </h1>
       </Link>
@@ -40,7 +40,7 @@ export const LandingNavbar = () => {
       <div className="flex items-center gap-x-2">
         
         {/* Navigation links */}
-        <div className="text-white">
+        <div className="text-Black">
           <Link className="mx-4" href="">Home</Link>
           <Link className="mx-4" href="">About</Link>
           <Link className="mx-4" href="">Service</Link>
